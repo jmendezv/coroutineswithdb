@@ -4,51 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d0ee0c7-2089-4fd9-a143-b9ced18bf338" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_01/leccion_01/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_01/leccion_02/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_02/leccion_03/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_02/leccion_04/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_02/leccion_05/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_06/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_07/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_08/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_09/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_10/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_11/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_12/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_13/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_14/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_15/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_16/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_17/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_18/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_19/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_21/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_22/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_23/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_24/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_25/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_26/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_27/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_28/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_29/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_30/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_31/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_32/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_33/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_34/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_35/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Main.kt" afterDir="false" />
+    <list default="true" id="5d0ee0c7-2089-4fd9-a143-b9ced18bf338" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_16/Main2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_17/Departments.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_18/Department.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_18/Main2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_15/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_15/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_16/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_16/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_18/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_18/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Object" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -100,10 +66,13 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_33" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_32" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.jmendezv.coroutineswithdb.seccion_04.leccion_17" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (2)">
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_03.leccion_10.MainKt" />
+  <component name="RunManager" selected="Kotlin.Main2Kt">
+    <configuration name="Main2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_18.Main2Kt" />
       <module name="corutineswithdb" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,8 +85,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_03.leccion_08.MainKt" />
+    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_15.MainKt" />
+      <module name="corutineswithdb" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_16.MainKt" />
+      <module name="corutineswithdb" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (5)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_18.MainKt" />
       <module name="corutineswithdb" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,9 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Main2Kt" />
+        <item itemvalue="Kotlin.MainKt (5)" />
+        <item itemvalue="Kotlin.MainKt (4)" />
+        <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.MainKt (2)" />
-        <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -140,9 +125,19 @@
       <option name="presentableId" value="Default" />
       <updated>1716582822294</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1716758669166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716758669166</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
