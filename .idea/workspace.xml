@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d0ee0c7-2089-4fd9-a143-b9ced18bf338" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_16/Main2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_17/Departments.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_18/Department.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_18/Main2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_15/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_15/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_16/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_16/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_18/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_18/Main.kt" afterDir="false" />
+    <list default="true" id="5d0ee0c7-2089-4fd9-a143-b9ced18bf338" name="Changes" comment="Lesson 18 is almost finished">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_19/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_19/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +63,9 @@
       <recent name="com.jmendezv.coroutineswithdb.seccion_04.leccion_17" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Main2Kt">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="Main2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_18.Main2Kt" />
-      <module name="corutineswithdb" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_03.leccion_13.MainKt" />
       <module name="corutineswithdb" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,13 +92,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_19.MainKt" />
+      <module name="corutineswithdb" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.Main2Kt" />
         <item itemvalue="Kotlin.MainKt (5)" />
         <item itemvalue="Kotlin.MainKt (4)" />
         <item itemvalue="Kotlin.MainKt (3)" />
-        <item itemvalue="Kotlin.MainKt (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -132,12 +125,20 @@
       <option name="project" value="LOCAL" />
       <updated>1716758669166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson 18 is almost finished">
+      <created>1716876063232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716876063232</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Lesson 18 is almost finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 18 is almost finished" />
   </component>
 </project>
