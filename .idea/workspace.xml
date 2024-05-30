@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d0ee0c7-2089-4fd9-a143-b9ced18bf338" name="Changes" comment="Lesson 18 is almost finished">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_19/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_19/Main.kt" afterDir="false" />
+    <list default="true" id="5d0ee0c7-2089-4fd9-a143-b9ced18bf338" name="Changes" comment="Lesson 23 is almost finished">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Department.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Departments.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Main2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Main3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_24/Department.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_24/Departments.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_25/Department.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_25/Departments.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_23/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_23/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_24/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_24/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_25/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_25/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin Object" />
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -42,58 +54,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pep/IdeaProjects/corutineswithdb/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/pep/IdeaProjects/corutineswithdb/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_25"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_25" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_24" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_35" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_34" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_33" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_32" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.jmendezv.coroutineswithdb.seccion_04.leccion_17" />
     </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.jmendezv.coroutineswithdb.seccion_04.leccion_23" />
+    </key>
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="Main2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_18.Main2Kt" />
+    <configuration name="Main2Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_20.Main2Kt" />
+      <module name="corutineswithdb" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_20.Main3Kt" />
+      <module name="corutineswithdb" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_20.MainKt" />
       <module name="corutineswithdb" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_15.MainKt" />
-      <module name="corutineswithdb" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_16.MainKt" />
-      <module name="corutineswithdb" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt (5)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_18.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_24.MainKt" />
       <module name="corutineswithdb" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_19.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_04.leccion_25.MainKt" />
       <module name="corutineswithdb" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,10 +117,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.Main2Kt" />
-        <item itemvalue="Kotlin.MainKt (5)" />
-        <item itemvalue="Kotlin.MainKt (4)" />
         <item itemvalue="Kotlin.MainKt (3)" />
+        <item itemvalue="Kotlin.Main3Kt" />
+        <item itemvalue="Kotlin.Main2Kt (1)" />
+        <item itemvalue="Kotlin.MainKt (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -132,13 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716876063232</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lesson 23 is almost finished">
+      <created>1717061425545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717061425545</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Lesson 18 is almost finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 18 is almost finished" />
+    <MESSAGE value="Lesson 23 is almost finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 23 is almost finished" />
   </component>
 </project>

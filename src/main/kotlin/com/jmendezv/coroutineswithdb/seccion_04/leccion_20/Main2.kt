@@ -1,20 +1,12 @@
-package com.jmendezv.coroutineswithdb.seccion_04.leccion_23
-
-/*
-* LECCIÓN 23: ENTIDADES: CONSULTAS
-*
-* */
+package com.jmendezv.coroutineswithdb.seccion_04.leccion_20
 
 import org.ktorm.database.Database
 import org.ktorm.dsl.eq
-import org.ktorm.entity.find
-import org.ktorm.entity.sequenceOf
+import org.ktorm.dsl.update
 import org.ktorm.logging.ConsoleLogger
 import org.ktorm.logging.LogLevel
 
-val Database.departments
-   get() = this.sequenceOf(Departments)
-
+// UPDATE
 fun main() {
    val database = Database.connect(
       url = "jdbc:mysql://localhost:3306/employees",
@@ -23,6 +15,11 @@ fun main() {
       logger = ConsoleLogger(threshold = LogLevel.DEBUG)
    )
 
-   val department = database.departments.find { it.deptNo eq "d001" }
-   println(department)
+   val t: Int = database.update(Departments) {
+      set(it.deptName, "Departamento 101")
+      where {
+         it.deptNo eq "d101"
+      }
+   }
+
 }
