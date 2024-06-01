@@ -1,18 +1,9 @@
 package com.jmendezv.coroutineswithdb.seccion_04.leccion_26
 
-/*
-* LECCIÓN 26: ENTIDADES: MANIPULACIÓN
-*
-* */
 import org.ktorm.database.Database
-import org.ktorm.entity.EntitySequence
-import org.ktorm.entity.add
-import org.ktorm.entity.sequenceOf
+import org.ktorm.entity.update
 import org.ktorm.logging.ConsoleLogger
 import org.ktorm.logging.LogLevel
-
-val Database.departments: EntitySequence<Department, Departments>
-   get() = this.sequenceOf(Departments)
 
 fun main() {
    val database = Database.connect(
@@ -22,9 +13,9 @@ fun main() {
       logger = ConsoleLogger(threshold = LogLevel.DEBUG)
    )
 
-   database.departments.add(Department {
+   database.departments.update(Department {
       deptNo = "d101"
-      deptName = "Departamento 101"
+      deptName = "Departamento 101 modificado"
    })
 
 }
