@@ -1,4 +1,4 @@
-package com.jmendezv.coroutineswithdb.seccion_05.leccion_30
+package com.jmendezv.coroutineswithdb.seccion_05.leccion_31
 
 import com.jmendezv.coroutineswithdb.seccion_04.leccion_25.Departments
 import org.ktorm.database.Database

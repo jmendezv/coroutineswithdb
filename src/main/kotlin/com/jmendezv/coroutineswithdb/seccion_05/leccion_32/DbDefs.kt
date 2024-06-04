@@ -1,8 +1,8 @@
-package com.jmendezv.coroutineswithdb.seccion_05.leccion_30
+package com.jmendezv.coroutineswithdb.seccion_05.leccion_32
 
-import com.jmendezv.coroutineswithdb.seccion_04.leccion_25.Departments
 import org.ktorm.database.Database
 import org.ktorm.dsl.eq
+import org.ktorm.entity.EntitySequence
 import org.ktorm.entity.count
 import org.ktorm.entity.forEach
 import org.ktorm.entity.sequenceOf
@@ -10,8 +10,10 @@ import org.ktorm.logging.ConsoleLogger
 import org.ktorm.logging.LogLevel
 import java.text.NumberFormat
 
-internal val Database.departments get() = this.sequenceOf(Departments)
-internal val Database.employees get() = this.sequenceOf(Employees)
+internal val Database.departments: EntitySequence<Department, Departments>
+   get() = this.sequenceOf(Departments)
+internal val Database.employees: EntitySequence<Employee, Employees>
+   get() = this.sequenceOf(Employees)
 
 internal val database = Database.connect(
    url = "jdbc:mysql://localhost:3306/employees",
