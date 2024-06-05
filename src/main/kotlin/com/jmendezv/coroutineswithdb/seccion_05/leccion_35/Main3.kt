@@ -1,17 +1,10 @@
 package com.jmendezv.coroutineswithdb.seccion_05.leccion_35
 
-/*
-* LECCIÓN 35: CANCELACIÓN Y TIMEOUT DE UNA CORRUTINA
-*
-* yield(): cede el hilo del despachador de la corrutina actual a otra corrutina
-* en el mismo despachador por si lo necesita.
-*
-* */
 import kotlinx.coroutines.*
 
 
 /*
-* Cancellation and exceptions
+* Supervision
 *
 * */
 fun main() = runBlocking {

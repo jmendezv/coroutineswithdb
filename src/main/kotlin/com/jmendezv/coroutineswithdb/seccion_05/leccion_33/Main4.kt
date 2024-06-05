@@ -4,6 +4,14 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.*
 import org.ktorm.entity.forEach
 
+/*
+* FAN-OUT
+*
+* La carga de trabajo se reparte entre varios consumidores:
+* 1 Producer -> 1+ Consumer
+*
+* */
+
 fun CoroutineScope.produceDepartments2(): ReceiveChannel<Department> = produce {
    database.departments.forEach {
       send(it)
