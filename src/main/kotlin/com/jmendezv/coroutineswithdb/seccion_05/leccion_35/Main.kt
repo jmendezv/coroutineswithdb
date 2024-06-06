@@ -8,18 +8,23 @@ package com.jmendezv.coroutineswithdb.seccion_05.leccion_35
 *
 * */
 import kotlinx.coroutines.*
+import org.ktorm.entity.forEach
 
 
 /*
-* Cancellation and exceptions
+* Cancelación del hijo pero el padre sigue activo
 *
 * */
+
 fun main() = runBlocking {
 
    val job = launch {
       val hijo = launch {
          try {
-            delay(Long.MAX_VALUE)
+           database.departments.forEach {
+              println(it)
+              yield()
+           }
          } finally {
             println("La corrutina hijo se ha cancelado")
          }

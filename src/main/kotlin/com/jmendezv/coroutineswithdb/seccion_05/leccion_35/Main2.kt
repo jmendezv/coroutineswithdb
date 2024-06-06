@@ -1,29 +1,40 @@
 package com.jmendezv.coroutineswithdb.seccion_05.leccion_35
 
 import kotlinx.coroutines.*
-
+import org.ktorm.entity.forEach
+import org.ktorm.entity.take
+import java.io.*
 
 /*
 * Exceptions aggregation *
 *
 * */
-fun main() = runBlocking {
 
-   val job = launch {
-      val hijo = launch {
+@OptIn(DelicateCoroutinesApi::class)
+fun main() = runBlocking {
+   val handler = CoroutineExceptionHandler { _, exception ->
+      println("Mi CoroutineExceptionHandler obtuvo la excepción $exception con la excepción suprimida ${exception.suppressed.contentToString()}")
+   }
+   val job = GlobalScope.launch(handler) {
+      val jobEmployees = launch {
          try {
-            delay(Long.MAX_VALUE)
+            database.employees.forEach {
+               println(it)
+               yield()
+            }
          } finally {
-            println("La corrutina hijo se ha cancelado")
+            throw ArithmeticException() // Segunda excepción porque employees tiene miles de registros
          }
       }
-      yield()
-      println("Cancelando hijo")
-      hijo.cancel()
-      hijo.join()
-      yield()
-      println("El padre no esta cancelado")
+      val jobDepartments = launch {
+         database.departments.forEach {
+            println(it)
+            yield()
+         }
+         throw IOException() // Primera excepción porque departments tiene pocos registros
+      }
+      jobEmployees.join()
+      jobDepartments.join()
    }
    job.join()
-   println("Main acaba")
 }
