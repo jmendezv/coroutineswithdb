@@ -14,6 +14,8 @@ internal val Database.departments: EntitySequence<Department, Departments>
    get() = this.sequenceOf(Departments)
 internal val Database.employees: EntitySequence<Employee, Employees>
    get() = this.sequenceOf(Employees)
+internal val Database.salaries: EntitySequence<Salary, Salaries>
+   get() = this.sequenceOf(Salaries)
 
 internal val database = Database.connect(
    url = "jdbc:mysql://localhost:3306/employees",

@@ -1,14 +1,10 @@
 package com.jmendezv.coroutineswithdb.seccion_05.leccion_36
 
-/*
-* LECCIÓN 36: ¿CÓMO COMPARTIR ESTADO MUTABLE ENTRE CORRUTINAS?
-*
-* */
 import kotlinx.coroutines.*
-import java.util.concurrent.atomic.AtomicInteger
+import kotlinx.coroutines.sync.*
 import kotlin.system.*
 
-suspend fun massiveRun(action: suspend () -> Unit) {
+suspend fun massiveRun4(action: suspend () -> Unit) {
    val n = 100  // number of coroutines to launch
    val k = 1000 // times an action is repeated by each coroutine
    val time = measureTimeMillis {
@@ -20,20 +16,21 @@ suspend fun massiveRun(action: suspend () -> Unit) {
          }
       }
    }
-   println("Completadas ${(n * k).format()} acciones en $time ms")
+   println("Completadas ${(n * k).format()} acciones en ${time.format()} ms")
 }
-//@Volatile
-//var counter = 0
-val counter = AtomicInteger()
+
+val mutex = Mutex()
+var counter4 = 0
 
 fun main() = runBlocking {
    // multiples threads
    withContext(Dispatchers.Default) {
-      massiveRun {
-         //counter++
-         //println(Thread.currentThread()) // Varios hilos
-         counter.incrementAndGet()
+      massiveRun4 {
+         // exclusión mútua
+         mutex.withLock {
+            counter4++
+         }
       }
    }
-   println("Contador = ${counter.format()}")
+   println("Contador = ${counter4.format()}")
 }
