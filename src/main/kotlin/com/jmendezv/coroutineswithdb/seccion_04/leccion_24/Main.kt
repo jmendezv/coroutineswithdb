@@ -26,13 +26,17 @@ fun main() {
       println(department)
    }
 
-   val departamentos: List<Department> = database.departments.filter {
+   val departamentos: List<Department> = database
+      .departments.filter {
       it.deptNo gt "d005"
    }.sortedBy { it.deptName }.toList()
 
-   val nombres: List<String> = database.departments.map { it.deptName }
+   val nombres: List<String> = database.departments
+      .map {
+      it.deptName }
 
-   val nombres2: String = database.departments.joinToString(separator = ":") { it.deptName }
+   val nombres2: String = database.departments
+      .joinToString(separator = ":") { it.deptName }
 
    println(nombres2)
 }

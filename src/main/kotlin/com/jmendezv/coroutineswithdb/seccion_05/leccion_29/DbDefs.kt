@@ -17,4 +17,5 @@ internal val database = Database.connect(
    logger = ConsoleLogger(threshold = LogLevel.ERROR)
 )
 
-internal fun getDepartments(): Unit = database.departments.forEach { println(it) }
+internal fun getDepartments(): Unit = database
+   .departments.forEach { println(it) }

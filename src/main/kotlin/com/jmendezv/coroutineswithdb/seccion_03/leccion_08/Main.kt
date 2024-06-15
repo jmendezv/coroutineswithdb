@@ -22,8 +22,12 @@ import java.sql.ResultSet
 data class Department(val dept_no: String, var dept_name: Int) {
    override fun toString(): String = "[$dept_no, $dept_name]"
 }
+
+/*
+* Esta consulta calcula el número de empleados que no son Seniors acumulado en cada Departamento
+* */
 val query: String = """
-   select t.title as 'Job', format(count(e.first_name),0) as 'Total Employees' 
+   select t.title as 'Job', count(e.first_name) as 'Total Employees' 
    from employees as e 
    left join titles as t on e.emp_no = t.emp_no 
    where not t.title like 'Senior%' 

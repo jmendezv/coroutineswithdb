@@ -19,8 +19,16 @@ fun main() {
 
    val connection: Connection = DriverManager
       .getConnection(jdbcEmployeesUrl, "root", "admin")
-   // The way to allow two or more statements to be grouped into a transaction is to disable the auto-commit mode.
+   // Deshabilito el modo autocommit para poder agrupar dos operaciones en una transacción
    connection.autoCommit = false
+   /*
+   * Un 'Savepoint' es un punto dentro de la transacción actual que puede ser referenciado desde
+   * el método Connection.rollback.
+   *
+   * Cuando una transacción se revierte a un punto de salvaguarda, todos los cambions hecho después
+   * de ella se deshacen.
+   *
+   * */
    val save1: Savepoint = connection.setSavepoint("save_01")
    val query1: PreparedStatement = connection.prepareStatement(query1)
    val query2: PreparedStatement = connection.prepareStatement(query2)

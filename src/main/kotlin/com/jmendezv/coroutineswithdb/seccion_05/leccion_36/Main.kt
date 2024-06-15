@@ -22,16 +22,16 @@ suspend fun massiveRun(action: suspend () -> Unit) {
    }
    println("Completadas ${(n * k).format()} acciones en $time ms")
 }
-//@Volatile
-//var counter = 0
+// @Volatile
+// var counter = 0
 val counter = AtomicInteger()
 
 fun main() = runBlocking {
    // multiples threads
    withContext(Dispatchers.Default) {
       massiveRun {
-         //counter++
-         //println(Thread.currentThread()) // Varios hilos
+         // counter++
+         // println(Thread.currentThread()) // Varios hilos
          counter.incrementAndGet()
       }
    }

@@ -5,6 +5,10 @@ import org.ktorm.schema.date
 import org.ktorm.schema.int
 import org.ktorm.schema.varchar
 
+/*
+* Definición de tabla: Table
+*
+* */
 object Employees : Table<Employee>("employees") {
    val empNo = int("emp_no").primaryKey().bindTo { it.empNo }
    val birthDate = date("birth_date").bindTo { it.birthDate }

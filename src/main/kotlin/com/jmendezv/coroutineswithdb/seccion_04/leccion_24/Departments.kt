@@ -8,6 +8,7 @@ import org.ktorm.schema.varchar
 *
 * */
 object Departments : Table<Department>("departments") {
-   val deptNo = varchar("dept_no").primaryKey().bindTo { it.deptNo}
+   val deptNo = varchar("dept_no")
+      .primaryKey().bindTo { it.deptNo}
    val deptName = varchar("dept_name").bindTo { it.deptName }
 }

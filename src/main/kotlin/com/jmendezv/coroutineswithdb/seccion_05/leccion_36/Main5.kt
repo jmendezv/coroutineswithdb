@@ -13,16 +13,21 @@ import org.ktorm.entity.update
 import java.time.LocalDate
 
 fun updateSalary(id: Int, date: LocalDate) {
-   val salary: Salary? = database.salaries.find {
+   var salary: Salary? = database.salaries.find {
       it.empNo eq id and(
            it.fromDate eq date)
    }
    println(salary)
    salary?.run {
-      var newSalary = salary.copy()
+      var newSalary = copy()
       newSalary.salary++
       database.salaries.update(newSalary)
    }
+   salary = database.salaries.find {
+      it.empNo eq id and (
+           it.fromDate eq date)
+   }
+   println(salary)
 }
 
 val lock = Mutex()

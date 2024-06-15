@@ -14,6 +14,9 @@ fun main() {
       logger = ConsoleLogger(threshold = LogLevel.DEBUG)
    )
 
-   val departamento: Department? = database.departments.find { it.deptNo eq "d101" }
+   val departamento: Department? = database.departments
+      .find { it.deptNo eq "d101" }
    departamento?.delete()
+
+   println("$departamento ha sido eliminado.")
 }

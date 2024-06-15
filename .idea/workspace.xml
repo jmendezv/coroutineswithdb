@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d0ee0c7-2089-4fd9-a143-b9ced18bf338" name="Changes" comment="Lesson 36 in progress">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Main2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Main3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Main4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Main5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Salaries.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Salary.kt" afterDir="false" />
+    <list default="true" id="5d0ee0c7-2089-4fd9-a143-b9ced18bf338" name="Changes" comment="Lesson 36 is finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/DbDefs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/DbDefs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_08/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_08/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_10/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_10/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_11/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_11/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_13/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_03/leccion_13/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_22/Departments.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_22/Departments.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_24/Departments.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_24/Departments.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_24/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_24/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_26/Departments.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_26/Departments.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_26/Main3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_26/Main3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_29/DbDefs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_29/DbDefs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_29/Departments.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_29/Departments.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_31/DbDefs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_31/DbDefs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_31/Employee.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_31/Employee.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_31/Employees.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_31/Employees.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Main5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36/Main5.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +68,8 @@
     "last_opened_file_path": "/Users/pep/IdeaProjects/corutineswithdb/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.2453568",
-    "project.structure.side.proportion": "0.2707254"
+    "project.structure.side.proportion": "0.2707254",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -107,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jmendezv.coroutineswithdb.seccion_05.leccion_36.MainKt" />
       <module name="corutineswithdb" />
       <method v="2">
@@ -120,7 +129,7 @@
         <item itemvalue="Kotlin.Main4Kt (1)" />
         <item itemvalue="Kotlin.Main3Kt (1)" />
         <item itemvalue="Kotlin.Main2Kt" />
-        <item itemvalue="Kotlin.MainKt (1)" />
+        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717667120582</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lesson 36 is finished">
+      <created>1717749080584</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717749080584</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +218,7 @@
     <MESSAGE value="Lesson 31 in progress" />
     <MESSAGE value="Lesson 35 in progress" />
     <MESSAGE value="Lesson 36 in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 36 in progress" />
+    <MESSAGE value="Lesson 36 is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 36 is finished" />
   </component>
 </project>

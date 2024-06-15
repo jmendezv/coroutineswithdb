@@ -19,7 +19,8 @@ fun main() {
    val connection: Connection = DriverManager
       .getConnection(jdbcUrl, "root", "admin")
 
-   // The way to allow two or more statements to be grouped into a transaction is to disable the auto-commit mode.
+   // The way to allow two or more statements to be grouped into a transaction
+   // is to disable the auto-commit mode.
    connection.autoCommit = false
    val query: PreparedStatement = connection.prepareStatement(query)
    query.execute()
