@@ -3,7 +3,6 @@ package com.jmendezv.coroutineswithdb.seccion_04.leccion_20
 import org.ktorm.database.Database
 import org.ktorm.dsl.delete
 import org.ktorm.dsl.eq
-import org.ktorm.dsl.update
 import org.ktorm.logging.ConsoleLogger
 import org.ktorm.logging.LogLevel
 

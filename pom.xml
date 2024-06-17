@@ -103,6 +103,12 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>8.3.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.ktorm/ktorm-support-mysql -->
+        <dependency>
+            <groupId>org.ktorm</groupId>
+            <artifactId>ktorm-support-mysql</artifactId>
+            <version>4.0.0</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.ktorm/ktorm-core -->
         <dependency>
             <groupId>org.ktorm</groupId>

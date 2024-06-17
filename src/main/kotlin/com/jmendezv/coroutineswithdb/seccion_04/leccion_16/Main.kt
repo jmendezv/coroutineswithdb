@@ -13,7 +13,7 @@ import org.ktorm.logging.LogLevel
 *
 * */
 fun main() {
-   val database = Database.connect(
+   val database: Database = Database.connect(
       url = "jdbc:mysql://localhost:3306/employees",
       user = "root",
       password = "admin",
