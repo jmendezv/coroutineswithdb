@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d0ee0c7-2089-4fd9-a143-b9ced18bf338" name="Changes" comment="Lesson 36 is finished and code is updated">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Main4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Main5.kt" afterDir="false" />
+    <list default="true" id="5d0ee0c7-2089-4fd9-a143-b9ced18bf338" name="Changes" comment="Added support for mysql dialeg and native SQL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_16/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_16/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Main3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_04/leccion_20/Main3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +43,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/pep/IdeaProjects/corutineswithdb/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.2453568",
-    "project.structure.side.proportion": "0.2707254",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pep/IdeaProjects/corutineswithdb/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.2453568&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2707254&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/jmendezv/coroutineswithdb/seccion_05/leccion_36" />
@@ -201,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718446085284</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added support for mysql dialeg and native SQL">
+      <created>1718611601494</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718611601495</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,6 +218,7 @@
     <MESSAGE value="Lesson 36 in progress" />
     <MESSAGE value="Lesson 36 is finished" />
     <MESSAGE value="Lesson 36 is finished and code is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 36 is finished and code is updated" />
+    <MESSAGE value="Added support for mysql dialeg and native SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added support for mysql dialeg and native SQL" />
   </component>
 </project>
